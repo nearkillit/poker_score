@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "335958027125",
+    "project_id": "fluuter-b0979",
+    "storage_bucket": "fluuter-b0979.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335958027125:android:11f8fc74be7ff6dfd2c13c",
+        "android_client_info": {
+          "package_name": "com.example.todo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335958027125-4rk2cguialjm59qrdknuv671ipmer843.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCObrd6UUGcv0xbEo1XF3HC16DqnBmj6Bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335958027125-4rk2cguialjm59qrdknuv671ipmer843.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
