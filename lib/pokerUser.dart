@@ -123,7 +123,7 @@ class PokerUserState extends State<PokerUser> {
                               inputFormatters: [
                                 FilteringTextInputFormatter.digitsOnly
                               ],
-                              maxLength: 8,
+                              maxLength: 7,
                               validator: (value) {
                                 if (value == null || value.isEmpty) {
                                   return S.of(context).please_enter;
@@ -161,7 +161,7 @@ class PokerUserState extends State<PokerUser> {
                               inputFormatters: [
                                 FilteringTextInputFormatter.digitsOnly
                               ],
-                              maxLength: 8,
+                              maxLength: 7,
                               validator: (value) {
                                 if (value == null || value.isEmpty) {
                                   return S.of(context).please_enter;
@@ -562,7 +562,7 @@ class _PokerUserDialogWidgetState extends State<PokerUserDialogWidget> {
                 initialValue: '${pokerUserProvider.initialChip}',
                 keyboardType: TextInputType.number,
                 inputFormatters: [FilteringTextInputFormatter.digitsOnly],
-                maxLength: 8,
+                maxLength: 7,
                 validator: (value) {
                   if (value == null || value.isEmpty) {
                     return S.of(context).please_enter;
