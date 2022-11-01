@@ -206,10 +206,12 @@ class _PokerUserActionWidgetState extends State<PokerUserActionWidget> {
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: TextFormField(
-                          initialValue: '${user.chip}',
+                          // initialValue: '${user.chip}',
+                          controller: _editController,
+                          maxLength: 7,
                           style: const TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 76.0,
+                              fontSize: 46.0,
                               color: Colors.black),
                           keyboardType: TextInputType.number,
                           inputFormatters: [
@@ -277,7 +279,7 @@ class _PokerUserActionWidgetState extends State<PokerUserActionWidget> {
                               Padding(
                                 padding: const EdgeInsets.all(4.0),
                                 child: SizedBox(
-                                  width: 60,
+                                  width: 50,
                                   height: 30,
                                   child: ElevatedButton(
                                     style: ElevatedButton.styleFrom(
@@ -301,7 +303,7 @@ class _PokerUserActionWidgetState extends State<PokerUserActionWidget> {
                               Padding(
                                 padding: const EdgeInsets.all(4.0),
                                 child: SizedBox(
-                                  width: 73,
+                                  width: 60,
                                   height: 30,
                                   child: ElevatedButton(
                                     style: ElevatedButton.styleFrom(
@@ -310,7 +312,7 @@ class _PokerUserActionWidgetState extends State<PokerUserActionWidget> {
                                         onPrimary: Colors.white,
                                         textStyle: const TextStyle(
                                             fontWeight: FontWeight.bold,
-                                            fontSize: 17)),
+                                            fontSize: 16)),
                                     onPressed: () {
                                       pokerUserProvider.updateChipToSelectUser(
                                           user.chip +
@@ -354,7 +356,7 @@ class _PokerUserActionWidgetState extends State<PokerUserActionWidget> {
                               Padding(
                                 padding: const EdgeInsets.all(4.0),
                                 child: SizedBox(
-                                  width: 60,
+                                  width: 50,
                                   height: 30,
                                   child: ElevatedButton(
                                     style: ElevatedButton.styleFrom(
@@ -378,7 +380,7 @@ class _PokerUserActionWidgetState extends State<PokerUserActionWidget> {
                               Padding(
                                 padding: const EdgeInsets.all(4.0),
                                 child: SizedBox(
-                                  width: 73,
+                                  width: 60,
                                   height: 30,
                                   child: ElevatedButton(
                                     style: ElevatedButton.styleFrom(
@@ -387,7 +389,7 @@ class _PokerUserActionWidgetState extends State<PokerUserActionWidget> {
                                         onPrimary: Colors.white,
                                         textStyle: const TextStyle(
                                             fontWeight: FontWeight.bold,
-                                            fontSize: 17)),
+                                            fontSize: 16)),
                                     onPressed: () {
                                       pokerUserProvider.updateChipToSelectUser(
                                           user.chip -
