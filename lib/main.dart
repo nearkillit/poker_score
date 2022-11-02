@@ -35,6 +35,8 @@ class MyApp extends StatelessWidget {
           ),
         ],
         child: MaterialApp(
+          debugShowCheckedModeBanner: false,
+          // ← ここです
           title: 'Poker',
           localizationsDelegates: const [
             S.delegate,
