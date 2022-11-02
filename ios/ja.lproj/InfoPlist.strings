@@ -2,7 +2,7 @@
   InfoPlist.strings
   Runner
 
-  Created by Kirito Shimura on 2022/10/29.
+  Created by Kirito Shimura on 2022/11/02.
   
 */
 CFBundleDisplayName = "ポーカー点数記録";
