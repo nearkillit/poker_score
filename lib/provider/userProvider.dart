@@ -75,7 +75,7 @@ final clearPokerUserChipData = PokerUserChipData(
 
 final List<PokerUserChipData> initPokerUserChipDataList = [
   PokerUserChipData(
-    name: 'List0',
+    name: 'Kenji',
     chip: 100,
     position: PokerUserDataPosition.values.byName('gen'),
     action: PokerUserDataAction.values.byName('none'),
@@ -85,7 +85,7 @@ final List<PokerUserChipData> initPokerUserChipDataList = [
     r3: 0,
   ),
   PokerUserChipData(
-    name: 'List1',
+    name: 'Jun',
     chip: 100,
     position: PokerUserDataPosition.values.byName('gen'),
     action: PokerUserDataAction.values.byName('none'),
@@ -95,7 +95,7 @@ final List<PokerUserChipData> initPokerUserChipDataList = [
     r3: 0,
   ),
   PokerUserChipData(
-    name: 'List2',
+    name: 'Yutaka',
     chip: 100,
     position: PokerUserDataPosition.values.byName('gen'),
     action: PokerUserDataAction.values.byName('none'),
@@ -105,7 +105,7 @@ final List<PokerUserChipData> initPokerUserChipDataList = [
     r3: 0,
   ),
   PokerUserChipData(
-    name: 'List3',
+    name: 'Shou',
     chip: 100,
     position: PokerUserDataPosition.values.byName('gen'),
     action: PokerUserDataAction.values.byName('none'),
